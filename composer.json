@@ -1,0 +1,19 @@
+{
+    "name": "liao/liao",
+    "description": "liao",
+    "authors": [
+        {
+            "name": "liaozongchao",
+            "email": "liaozongchao@yiihua.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+	    "files": [
+	        "src/app/functions.php"
+	        ],
+	    "psr-4": {
+	        "App\\": "src/app"
+	    }
+    }
+}
